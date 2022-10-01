@@ -1,8 +1,8 @@
 package bataille.pack;
 public class Carte {
 	//Propriétés
-	private String[] couleurTab = new String[]{"coeur", "carreau", "pique", "trefle"};
-	private int[] valeurTab = new int[]{2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
+	private String[] couleurTab = {"coeur", "carreau", "pique", "trefle"};
+	private int[] valeurTab = {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
 	
 	private String couleur;
 	private int valeur;
