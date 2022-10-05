@@ -9,9 +9,8 @@ public class Joueur {
   
  //Méthodes
   public Carte tireCarte(Carte aCard) {
-
-	  Carte carteTire = aCard;
-	  tabCard[tabCard.length - 1] = carteTire;
+	  
+	  tabCard[tabCard.length - 2 + 1] = aCard;
 	  return tabCard[tabCard.length - 1];	  
   }
   
