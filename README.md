@@ -1,5 +1,5 @@
 # Mini-projet-Bataille-de-cartes
-## Licence pro projet web et mobile(CFA des sciences)
+## Licence pro projet web et mobile(CFA des sciences - Sorbonne Université)
 Bataille de carte entre deux joueur en JAVA
 
 ### La bataille, les règles du jeu
