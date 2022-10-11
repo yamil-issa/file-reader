@@ -15,28 +15,12 @@ public class PalindromicTextReader extends TextReader{
 	public void read(String path) {
 		this.path = path;
 	
-		FileInputStream on = null;
-		File f2 = new File(this.path);
-		
-		try {
-			on = new FileInputStream(f2);
-		} catch (FileNotFoundException e) {
-	
-			e.printStackTrace();
-		}
-		
-		Scanner content2 = new Scanner(on);
-		while(content2.hasNext()) {
-			System.out.println(content2.nextLine());
-			
-		}
-		content2.close();
 		
 		System.out.println("\n\r");
 		
 		System.out.println("Voici le texte affiché de maniere palindromique");
 		
-		System.out.println("\n\r");
+		System.out.println("\r\n");
 		
 		FileInputStream in = null;
 		File f = new File(this.path);
