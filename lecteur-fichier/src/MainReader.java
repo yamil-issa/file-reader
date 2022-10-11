@@ -4,10 +4,10 @@ public class MainReader {
 		//C:\Users\issay\eclipse-workspace\lecteur-fichier\text.txt
 	
 		NormalTextReader reader1 =  new NormalTextReader();
-		reader1.read("C:\\Users\\issay\\eclipse-workspace\\lecteur-fichier\\text.txt");
+		reader1.read("D:\\eclipseRepo\\lecteur-fichier\\text.txt");
 		
 		PalindromicTextReader reader2 = new PalindromicTextReader();
-		reader2.read("C:\\Users\\issay\\eclipse-workspace\\lecteur-fichier\\text.txt");
+		reader2.read("D:\\eclipseRepo\\lecteur-fichier\\text.txt");
 		
 		
 		

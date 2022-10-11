@@ -8,7 +8,7 @@ public class NormalTextReader extends TextReader{
 	public NormalTextReader() {
 	 
 	}
-
+	
 	public void read(String path) {
 		this.path = path;
 		FileInputStream in = null;
@@ -27,7 +27,7 @@ public class NormalTextReader extends TextReader{
 			
 		}
 		content.close();
-
+		
 	}
 
 	@Override
@@ -35,6 +35,8 @@ public class NormalTextReader extends TextReader{
 		// TODO Auto-generated method stub
 		
 	}
+
+	
 
 	
 	
