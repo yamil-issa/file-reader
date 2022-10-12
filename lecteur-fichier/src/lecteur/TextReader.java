@@ -1,9 +1,9 @@
+package lecteur;
 public abstract class TextReader implements FileReader {
 	protected String path;
-	protected String content;
 	
+	//méthode abstraite
 	public abstract void read(String path);
-	
 	
 	
 

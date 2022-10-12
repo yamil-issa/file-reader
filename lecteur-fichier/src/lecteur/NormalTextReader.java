@@ -1,3 +1,4 @@
+package lecteur;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -32,6 +33,12 @@ public class NormalTextReader extends TextReader{
 
 	@Override
 	public void read() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void modify() {
 		// TODO Auto-generated method stub
 		
 	}

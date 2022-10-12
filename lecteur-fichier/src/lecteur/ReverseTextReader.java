@@ -1,3 +1,4 @@
+package lecteur;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -6,11 +7,7 @@ import java.util.Scanner;
 
 public class ReverseTextReader extends TextReader {
 
-	@Override
-	public void read() {
-		// TODO Auto-generated method stub
-		
-	}
+	
 
 	@Override
 	public void read(String path) {
@@ -43,6 +40,18 @@ public class ReverseTextReader extends TextReader {
 		 for (int i = lines.size() - 1; i >= 0; i--) {
 		        System.out.println(lines.get(i));
 		    }
+		
+	}
+
+	@Override
+	public void modify() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void read() {
+		// TODO Auto-generated method stub
 		
 	}
 	

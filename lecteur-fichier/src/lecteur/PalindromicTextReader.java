@@ -1,3 +1,4 @@
+package lecteur;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -41,6 +42,12 @@ public class PalindromicTextReader extends TextReader{
 		content.close();
 		
 		
+		
+	}
+
+	@Override
+	public void modify() {
+		// TODO Auto-generated method stub
 		
 	}
 	
