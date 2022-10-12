@@ -4,6 +4,7 @@ public abstract class TextReader implements FileReader {
 	
 	//méthode abstraite
 	public abstract void read(String path);
+	public abstract void modify();
 	
 	
 

@@ -10,6 +10,8 @@ public class NormalTextReader extends TextReader{
 	 
 	}
 	
+
+	@Override
 	public void read(String path) {
 		this.path = path;
 		FileInputStream in = null;
@@ -32,16 +34,12 @@ public class NormalTextReader extends TextReader{
 	}
 
 	@Override
-	public void read() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
 	public void modify() {
 		// TODO Auto-generated method stub
 		
 	}
+
+	
 
 	
 

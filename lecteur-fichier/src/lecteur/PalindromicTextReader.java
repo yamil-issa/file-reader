@@ -7,12 +7,8 @@ import java.util.Scanner;
 
 public class PalindromicTextReader extends TextReader{
 
-	@Override
-	public void read() {
-		// TODO Auto-generated method stub
-		
-	}
 	
+	@Override
 	public void read(String path) {
 		this.path = path;
 	
@@ -44,6 +40,9 @@ public class PalindromicTextReader extends TextReader{
 		
 		
 	}
+	
+	
+	
 
 	@Override
 	public void modify() {

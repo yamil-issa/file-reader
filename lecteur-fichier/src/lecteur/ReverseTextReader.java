@@ -7,8 +7,6 @@ import java.util.Scanner;
 
 public class ReverseTextReader extends TextReader {
 
-	
-
 	@Override
 	public void read(String path) {
 		this.path = path;
@@ -49,12 +47,6 @@ public class ReverseTextReader extends TextReader {
 		
 	}
 
-	@Override
-	public void read() {
-		// TODO Auto-generated method stub
-		
-	}
-	
 	
 
 }
