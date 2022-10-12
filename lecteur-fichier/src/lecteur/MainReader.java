@@ -4,8 +4,7 @@ import java.util.Scanner;
 public class MainReader {
 
 	public static void main(String[] args) {
-		//D:\eclipseRepo\lecteur-fichier\text.txt
-		
+				
 		String saisie;
 		
 		Scanner console = new Scanner(System.in);
