@@ -21,7 +21,6 @@ public class MainReader {
 		PalindromicTextReader reader3 = new PalindromicTextReader();
 		reader3.read(saisie);
 		
-		
 	}
 
 }
