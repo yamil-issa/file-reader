@@ -7,11 +7,11 @@ public class MainReader {
 				
 		String saisie;
 		
-		Scanner console = new Scanner(System.in);
-		System.out.print("Entrez le chemin du fichier : \n");
-		
-		saisie = console.nextLine();
-	
+		try (Scanner console = new Scanner(System.in)) {
+			System.out.print("Entrez le chemin du fichier : \n");
+			
+			saisie = console.nextLine();
+		}
 		NormalTextReader reader1 =  new NormalTextReader();
 		reader1.read(saisie);
 		
